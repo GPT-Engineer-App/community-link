@@ -11,11 +11,8 @@ const Navbar = () => {
           <Link as={NavLink} to="/" color="white" _hover={{ textDecoration: "none" }}>
             Home
           </Link>
-          <Link as={NavLink} to="/signup" color="white" _hover={{ textDecoration: "none" }}>
-            Sign Up
-          </Link>
-          <Link as={NavLink} to="/login" color="white" _hover={{ textDecoration: "none" }}>
-            Login
+          <Link as={NavLink} to="/auth" color="white" _hover={{ textDecoration: "none" }}>
+            Sign Up / Login
           </Link>
           <Link as={NavLink} to="/profile" color="white" _hover={{ textDecoration: "none" }}>
             Profile
