@@ -13,6 +13,9 @@ const Index = () => {
         <Text fontSize="4xl" fontWeight="bold">Connecting Volunteers and Organisations</Text>
         <Text fontSize="2xl">Your Blank Canvas</Text>
         <Text>Chat with the agent to start making edits.</Text>
+        <Text fontSize="lg" mt={8} textAlign="center">
+          VolunteerConnect is dedicated to bridging the gap between volunteers and organisations. Our platform makes it easier for individuals to find meaningful volunteer opportunities and for organisations to connect with passionate people ready to make a difference.
+        </Text>
       </VStack>
     </Container>
   );
