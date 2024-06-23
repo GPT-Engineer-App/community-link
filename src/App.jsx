@@ -4,6 +4,7 @@ import SignUp from "./pages/SignUp.jsx";
 import Login from "./pages/Login.jsx";
 import Profile from "./pages/Profile.jsx";
 import Navbar from "./components/Navbar.jsx";
+import VolunteerOrganizations from "./pages/VolunteerOrganizations.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/signup" element={<SignUp />} />
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/profile" element={<Profile />} />
+        <Route exact path="/volunteer-organizations" element={<VolunteerOrganizations />} />
       </Routes>
     </Router>
   );
